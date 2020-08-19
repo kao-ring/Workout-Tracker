@@ -1,52 +1,83 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Workout Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+**Description:**
 
-## User Story
+- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled...
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+**Heroku Link:** https://workout-tracker-kc.herokuapp.com/
 
-## Business Context
+![](https://img.shields.io/github/license/kao-ring/Eat-Da-Burger-?style=plastic&logo=appveyor)
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+---
 
-## Acceptance Criteria
+## Table of Contents
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Questions](#questions)
 
-The user should be able to:
+---
 
-  * Add exercises to a previous workout plan.
+## Demo
 
-  * Add new exercises to a new workout plan.
+![Untitled_ Aug 19, 2020 6_57 PM](https://user-images.githubusercontent.com/66850293/90698278-546d5800-e24e-11ea-968e-4e29c84aa08f.gif)
 
-  * View multiple the combined weight of multiple exercises on the `stats` page.
+---
 
-## Commit Early and Often
+## Installation
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+Get a clone from repository with following command.
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+```
+git@github.com:kao-ring/Workout-Tracker.git
+```
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+Install the application dependancies.
 
-Follow these guidelines for committing:
+```
+npm install
+```
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+Run the node server locally.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+```
+node server.js
+```
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+Finally, open your browser and connect to [PORT 3000](http://localhost:3000/).
 
-* Test your application before you commit to ensure functionality at every step in the development process
+Or you can go to [heroku](https://workout-tracker-kc.herokuapp.com/).
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+---
 
-## Submission on BCS
+## Usage
 
-You are required to submit the following:
+- Choose Continue or New for your workout.
 
-* The URL to the deployed application
+- Choose a exercise type and fill out the form.
 
-* The URL to the Github repository
-# Workout-Tracker
+- You can keep adding more exercise.
+
+- When you done, hit complete. You can see your detail for last workout.
+
+- Also if you click on Dashboard on the left top corner, you'll see four kinds of charts there so you can see all your workout at glance.
+
+---
+
+## License
+
+This project is licensed under the [MIT](./LICENSE).
+
+---
+
+## Questions
+
+For any questions, please connect with me:
+
+- E-mail: <kao.ring@yahoo.com>
+
+- Github: https://github.com/kao-ring
+
+- LinkedIn: https://www.linkedin.com/in/kaori-nakajima

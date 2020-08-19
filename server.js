@@ -20,5 +20,5 @@ app.use(require("./routes/html.js"));
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
-  console.log(`App running on port http://localhost:${PORT}`);
+  console.log(`App running on http://localhost:${PORT}`);
 });
