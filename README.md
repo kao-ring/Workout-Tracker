@@ -6,7 +6,7 @@
 
 **Heroku Link:** https://workout-tracker-kc.herokuapp.com/
 
-![](https://img.shields.io/github/license/kao-ring/Eat-Da-Burger-?style=plastic&logo=appveyor)
+![](https://img.shields.io/github/license/kao-ring/Workout-Tracker?style=plastic&logo=appveyor)
 
 ---
 
